@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="header">
+        <a class="nav_item" style="margin-left: 0px;"><img class="img_inst" src="img/inst.png"></a>
+        <a class="nav_item" href="index.html">Главная</a>
+        <a class="nav_item" href="masters.html">Мастера</a>
+        <a class="nav_item" href="index.html"><img class="img_main" src="img/Vector.svg"></a>
+        <a class="nav_item" href="prices.html">Услуги</a>
+        <a class="nav_item" href="location.html">Местоположение</a>
+        <a class="nav_item menu" id="menu"><hr class="head_line"><hr class="head_line1"><hr class="head_line2"></a>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar_text">
+            <div class="map__close cross-btn" id="map-close" title="Закрыть карту" role="button">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, adipiscing amet in egestas sem dui,
+                arcu<br>
+                faucibus scelerisque. Nisl est felis id volutpat. Sed dolor fermentum amet lectus nibh quis.
+                Tortor<br>
+                donec pellentesque leo ac placerat. Morbi.</p>
+            <h2>Контакты</h2>
+            <p>898842343</p>
+            <p>898842343</p>
+            <p>Новоостровский проспект, дом 36 лит. С</p>
+            <br>
+            <h2>Режим работы</h2>
+            <p>C 10:00 до 21:00 (Пн-Пт)</p>
+            <p>С 11:00 до 20:00 (Сб-Вс)</p>
+        </div>
+    </div>
+    <script>
+
+        $(".menu").on('click', function () {
+            $('.sidebar').css({
+                'right': '0%',
+            });
+        });
+        $(".map__close").on('click', function () {
+            $('.sidebar').css({
+                'right': '-40%',
+            });
+        });
+    </script>
+    <hr class="line">
+</header>
+<div class="main_page inline_content">
+    <img class="main_page-img" src="img/bgc.png">
+    <h1 class="text_salon">Салон красоты<br>
+        «Delote-Beauty» <br>
+        на Крестовском</h1>
+    <div class="arrow-down" onclick="window.scrollTo({top: 772,behavior: 'smooth',});">
+        <span class="mark_down"></span>
+    </div>
+</div>
+<div class="inline_content">
+    <div class="cov">
+        <img class="cov_img" src="img/cov.svg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu nibh vitae amet.<br>
+            Ipsum, pharetra donec ornare velit. Id at quisque accumsan risus ac ipsum ut. Sit<br>
+            elit, facilisi proin non malesuada sociis tristique. Viverra augue lorem ut quisque<br>
+            quam tortor, malesuada iaculis.<br>
+            Et elementum at nulla venenatis, faucibus integer. Auctor neque eros, viverra<br>
+            rutrum. Fames ultrices condimentum tortor nec penatibus. Velit imperdiet
+            <br>sapien fringilla vestibulum sit fames.</p>
+    </div>
+    <div class="uslugi">
+        <div class="usl_block">
+            <img class="uslugi_img" src="img/unsplash_TnyHlxVnyhk.svg">
+            <p>Парикмахерские услуги</p>
+        </div>
+        <div class="usl_block">
+            <img class="uslugi_img" src="img/unsplash_gb6gtiTZKB8.svg">
+            <p>Маникюр</p>
+        </div>
+        <div class="usl_block">
+            <img class="uslugi_img" src="img/unsplash_qeuJczNo54w.svg">
+            <p>Педикюр</p>
+        </div>
+        <div class="usl_block">
+            <img class="uslugi_img" src="img/unsplash_Pe9IXUuC6QU.svg">
+            <p>Косметология</p>
+        </div>
+        <div class="usl_block">
+            <img class="uslugi_img" src="img/unsplash_VxAwTeiqDao.svg">
+            <p>Эстетист по телу</p>
+        </div>
+        <div class="usl_block">
+            <img class="uslugi_img" src="img/unsplash_FoeIOgztCXo.svg">
+            <p>Визаж</p>
+        </div>
+    </div>
+    <div class="brands_imgs">
+        <img class="brand_img" src="img/image%203%20(Traced).svg">
+        <img class="brand_img" src="img/image%204%20(Traced).svg">
+        <img class="brand_img" src="img/image%205%20(Traced).svg">
+        <img class="brand_img" src="img/image%206%20(Traced).svg">
+
+    </div>
+</div>
+<div class="inline_content">
+    <h1 class="our_works">Наши работы</h1>
+    <div class="uslugi_btns">
+        <a class="btn_usl">Показать все</a>
+        <a class="btn_usl">Парикмахерские услуги</a>
+        <a class="btn_usl">Маникюр</a>
+        <a class="btn_usl">Педикюр</a>
+    </div>
+    <div class="uslugi">
+        <div class="usl_block1">
+            <img class="uslugi_img second" src="img/work-1.svg">
+        </div>
+        <div class="usl_block1">
+            <img class="uslugi_img second" src="img/work-2.svg">
+        </div>
+        <div class="usl_block1">
+            <img class="uslugi_img second" src="img/work-3.svg">
+        </div>
+        <div class="usl_block1">
+            <img class="uslugi_img second" src="img/work-4.svg">
+        </div>
+        <div class="usl_block1">
+            <img class="uslugi_img second" src="img/work-5.svg">
+        </div>
+        <div class="usl_block1">
+            <img class="uslugi_img second" src="img/work-6.svg">
+        </div>
+        <div class="usl_block1">
+            <img class="uslugi_img second" src="img/work-7.svg">
+        </div>
+        <div class="usl_block1">
+            <img class="uslugi_img second" src="img/work-8.svg">
+        </div>
+        <div class="usl_block1">
+            <img class="uslugi_img second" src="img/work-9.svg">
+        </div>
+    </div>
+</div>
+<footer>
+
+    <hr class="line foot_line">
+    <div class="footer">
+        <a class="nav_item foot" href="/"><img class="img_main" src="img/Vector.svg"></a>
+        <div>
+            <h2>Контакты</h2>
+            <p>898842343</p>
+            <p>898842343</p>
+            <p>Новоостровский проспект, дом 36 лит. С</p>
+        </div>
+        <div>
+            <h2>Режим работы</h2>
+            <p>C 10:00 до 21:00 (Пн-Пт)</p>
+            <p>С 11:00 до 20:00 (Сб-Вс)</p>
+        </div>
+        <div>
+            <h3>Мы в Instagram</h3>
+            <a class="nav_item" href=""><img class="img_inst" src="img/inst.png"></a>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
+
