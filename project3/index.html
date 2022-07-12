@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body style="background: #2a2929">
+<header>
+    <div class="header">
+        <a class="nav_item" id="down_btn1">Магазины</a>
+        <a class="nav_item" href="index.html"><img src="img/ico.jpg" class="img_main"></a>
+        <a class="nav_item menu" id="menu">
+            <hr class="head_line">
+            <hr class="head_line1">
+            <hr class="head_line2">
+        </a>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar_text">
+            <div class="map__close cross-btn" id="map-close" title="Закрыть карту" role="button">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, adipiscing amet in egestas sem dui,
+                arcu<br>
+                faucibus scelerisque. Nisl est felis id volutpat. Sed dolor fermentum amet lectus nibh quis.
+                Tortor<br>
+                donec pellentesque leo ac placerat. Morbi.</p>
+            <h2>Контакты</h2>
+            <p>898842343</p>
+            <p>898842343</p>
+            <p>Новоостровский проспект, дом 36 лит. С</p>
+            <br>
+            <h2>Режим работы</h2>
+            <p>C 10:00 до 21:00 (Пн-Пт)</p>
+            <p>С 11:00 до 20:00 (Сб-Вс)</p>
+        </div>
+    </div>
+    <script>
+
+        $(".menu").on('click', function () {
+            $('.sidebar').css({
+                'right': '0%',
+            });
+        });
+        $(".map__close").on('click', function () {
+            $('.sidebar').css({
+                'right': '-40%',
+            });
+        });
+    </script>
+    <hr class="line">
+</header>
+<div class="main_page inline_content">
+    <img class="main_page-img" id="main_ban" src="img/9e142e2c9c5541486a2f4d5f5474a217.jpg">
+    <h1 class="text_salon">Lorem ipsum dolor<br>
+        adipiscing elit. <br>
+        egestas sem dui</h1>
+    <div class="arrow-down" id="down_btn">
+        <span class="mark_down"></span>
+    </div>
+</div>
+<div class="inline_content" id="shops">
+    <div class="cov">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu nibh vitae amet.<br>
+            Ipsum, pharetra donec ornare velit. Id at quisque accumsan risus ac ipsum ut. Sit<br>
+            elit, facilisi proin non malesuada sociis tristique. Viverra augue lorem ut quisque<br>
+            quam tortor, malesuada iaculis.<br>
+            Et elementum at nulla venenatis, faucibus integer. Auctor neque eros, viverra<br>
+            rutrum. Fames ultrices condimentum tortor nec penatibus. Velit imperdiet
+            <br>sapien fringilla vestibulum sit fames.</p>
+    </div>
+    <div class="uslugi">
+        <div class="usl_block">
+            <a href="info.html"><img class="uslugi_img" src="img/4-24-1.jpg"></a>
+            <p>Магазин №1</p>
+        </div>
+        <div class="usl_block">
+            <a href="info2.html"><img class="uslugi_img" src="img/SASKATCHEWAN-e1536686646484.jpg"></a>
+            <p>Магазин №2</p>
+        </div>
+        <div class="usl_block">
+            <a href="info3.html"><img class="uslugi_img" src="img/stroitelnie_materialy_news_06.jpg"></a>
+            <p>Магазин №3</p>
+        </div>
+        <div class="usl_block">
+            <a href="info4.html"><img class="uslugi_img" src="img/XXXL.jpg"></a>
+            <p>Магазин №4</p>
+        </div>
+        <div class="usl_block">
+            <a href="info5.html"><img class="uslugi_img" src="img/XXXL1.jpg"></a>
+            <p>Магазин №5</p>
+        </div>
+        <div class="usl_block">
+            <a href="info6.html"><img class="uslugi_img" src="img/96B55E72-6C5F-46BC-9E26-38DE957A8535.jpeg"></a>
+            <p>Магазин №6</p>
+        </div>
+    </div>
+    <div class="arrow-6" id="up__btn">
+        <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g transform="translate(8.500000, 8.500000) scale(-1, 1) translate(-8.500000, -8.500000)">
+                <polygon class="arrow-6-pl"
+                         points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                <polygon class="arrow-6-pl-fixed"
+                         points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                <path d="M-1.48029737e-15,0.56157424 L-1.48029737e-15,16.1929159 L9.708,8.33860465 L-2.66453526e-15,0.56157424 L-1.48029737e-15,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+            </g>
+        </svg>
+    </div>
+    <div class="brands_imgs">
+        <img class="brand_img" src="img/56151528d7afc691103e06f5985d6b38.png">
+        <img class="brand_img" src="img/e91ee26077a5f6bee9e8d6c55_1576007531.png">
+        <img class="brand_img" src="img/913f58ec58dc5a3357ca08d43045ef6f.png">
+        <img class="brand_img" src="img/austrotherm.png">
+
+    </div>
+</div>
+<footer>
+
+    <hr class="line foot_line">
+    <div class="footer">
+        <a class="nav_item foot" href="index.html"><img src="img/ico.jpg" class="img_main"></a>
+        <div>
+            <h2>Контакты</h2>
+            <p>898842343</p>
+            <p>898842343</p>
+            <p>Новоостровский проспект, дом 36 лит. С</p>
+        </div>
+        <div>
+            <h2>Режим работы</h2>
+            <p>C 10:00 до 21:00 (Пн-Пт)</p>
+            <p>С 11:00 до 20:00 (Сб-Вс)</p>
+        </div>
+    </div>
+    <script>
+        $("#down_btn").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#shops").offset().top
+            }, 1000);
+        });$("#up__btn").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#main_ban").offset().top
+            }, 1000);
+        });$("#down_btn1").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#shops").offset().top
+            }, 1000);
+        });
+
+    </script>
+    <style>
+        .main_page-img {
+            object-fit: cover;
+        }
+    </style>
+</footer>
+</body>
+</html>
